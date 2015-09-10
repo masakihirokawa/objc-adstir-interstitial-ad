@@ -14,7 +14,7 @@
 
 @implementation ViewController
 
-NSString *const ADSTIR_MEDIA_ID       = @"MEDIA-a4f850c8";
+NSString *const ADSTIR_MEDIA_ID       = @"";
 int       const ADSTIR_INTERS_SPOT_ID = 1;
 
 #pragma mark -
