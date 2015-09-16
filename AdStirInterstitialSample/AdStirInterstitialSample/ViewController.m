@@ -14,8 +14,8 @@
 
 @implementation ViewController
 
-NSString *const ADSTIR_MEDIA_ID       = @"";
-int       const ADSTIR_INTERS_SPOT_ID = 1;
+NSString   *const ADSTIR_MEDIA_ID       = @"";
+NSUInteger  const ADSTIR_INTERS_SPOT_ID = 2;
 
 #pragma mark -
 
@@ -27,6 +27,12 @@ int       const ADSTIR_INTERS_SPOT_ID = 1;
     [self loadAdStirInterstitialAd];
 }
 
+- (IBAction)test:(id)sender
+{
+    // AdStirインタースティシャル広告表示
+    [adStirInterstitial showTypeA:self];
+}
+
 #pragma mark - AdStir Interstitial Ad
 
 // AdStirインタースティシャル広告読み込み
@@ -35,6 +41,7 @@ int       const ADSTIR_INTERS_SPOT_ID = 1;
     adStirInterstitial = [[AdstirInterstitial alloc] init];
     adStirInterstitial.media = ADSTIR_MEDIA_ID;
     adStirInterstitial.spot = ADSTIR_INTERS_SPOT_ID;
+    adStirInterstitial.delegate = self;
     [adStirInterstitial load];
 }
 

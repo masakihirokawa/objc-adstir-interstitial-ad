@@ -1,18 +1,19 @@
 //
-//  AdStirInterstitialAdSampleTests.m
-//  AdStirInterstitialAdSampleTests
+//  AdStirInterstitialSampleTests.m
+//  AdStirInterstitialSampleTests
 //
-//  Created by Dolice on 2015/09/10.
-//  Copyright © 2015年 Dolice. All rights reserved.
+//  Created by Dolice on 2015/09/15.
+//  Copyright (c) 2015年 Dolice. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface AdStirInterstitialAdSampleTests : XCTestCase
+@interface AdStirInterstitialSampleTests : XCTestCase
 
 @end
 
-@implementation AdStirInterstitialAdSampleTests
+@implementation AdStirInterstitialSampleTests
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +27,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(YES, @"Pass");
 }
 
 - (void)testPerformanceExample {

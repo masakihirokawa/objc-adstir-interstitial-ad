@@ -1,9 +1,9 @@
 //
 //  main.m
-//  AdStirInterstitialAdSample
+//  AdStirInterstitialSample
 //
-//  Created by Dolice on 2015/09/10.
-//  Copyright © 2015年 Dolice. All rights reserved.
+//  Created by Dolice on 2015/09/15.
+//  Copyright (c) 2015年 Dolice. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

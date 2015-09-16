@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AdstirAds/AdstirAds.h>
+#import "AdstirInterstitial.h"
 
 @interface ViewController : UIViewController <AdstirInterstitialDelegate> {
     AdstirInterstitial *adStirInterstitial;
 }
+
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
